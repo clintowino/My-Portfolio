@@ -22,7 +22,7 @@ body {
 
 /* Header */
 header {
-  background-color: #333;
+  background-color: #232535;
   color: #fff;
   padding: 20px 0;
   text-align: center;
@@ -63,7 +63,7 @@ section h2 {
 
 /* About Section */
 #about {
-  background-color: #e2e2e2;
+  background-color: #7d7c81;
   padding: 40px 0;
   text-align: center;
 }
@@ -71,6 +71,7 @@ section h2 {
 /* Projects Section */
 #projects {
   padding: 40px 0;
+  background-color: #7f8d9b96;
 }
 
 .project-grid {
@@ -81,7 +82,7 @@ section h2 {
 }
 
 .project {
-  background-color: #fff;
+  background-color: #ffffff8e;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -100,14 +101,14 @@ section h2 {
   display: inline-block;
   margin-top: 10px;
   padding: 10px 20px;
-  background-color: #333;
+  background-color: #000303;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
 }
 
 #contact a:hover {
-  background-color: #555;
+  background-color: #2dcaf1;
 }
 
 /* Footer */
@@ -117,4 +118,24 @@ footer {
   text-align: center;
   padding: 20px 0;
   margin-top: 20px;
+}
+/* Social Links */
+.social-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.social-links li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #0073e6;
+  font-weight: bold;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
 }

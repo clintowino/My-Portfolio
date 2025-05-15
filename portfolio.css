@@ -22,7 +22,7 @@ body {
 
 /* Header */
 header {
-  background-color: #232535;
+  background: repeating-linear-gradient(45deg, #000303, #2dcaf1);
   color: #fff;
   padding: 20px 0;
   text-align: center;
@@ -31,6 +31,9 @@ header {
 header h1 {
   margin-bottom: 10px;
   font-size: 2.5em;
+}
+header p{
+  color: #d9d8df;
 }
 
 header nav ul {
@@ -42,12 +45,16 @@ header nav ul {
 
 header nav ul li {
   display: inline;
+  gap: 20px;
+  padding: auto;
+  margin-top: 30px;
 }
 
 header nav ul li a {
   color: #fff;
   text-decoration: none;
   font-size: 1.1em;
+  padding-bottom: 30px;
 }
 
 header nav ul li a:hover {
@@ -71,30 +78,50 @@ section h2 {
 /* Projects Section */
 #projects {
   padding: 40px 0;
-  background-color: #7f8d9b96;
-}
+background-image: linear-gradient('https://static.vecteezy.com/system/resources/thumbnails/003/106/496/small_2x/technology-background-with-binary-code-pattern-free-vector.jpg');}
 
 .project-grid {
   display: flex;
   justify-content: center;
   gap: 20px;
-  flex-wrap: wrap;
+  flex-wrap: swrap;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn_QYIBQiTT9abZ-jozqnoE6MLNmuHN93V3iEq3mJemmrD72D_jJ1er9kgeqO8KapMeBE&usqp=CAUg');
+  background-position: 100%;
+  size: cover;
+
+}
+.projects h3{
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  font-weight: 200px;
+  display: flex;
+  justify-content: center;
+}
+.projects p{
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-weight: 100px;
+  display: flex;
+  justify-content: center;
+  color: rgb(228, 220, 220);
 }
 
 .project {
-  background-color: #ffffff8e;
+  background-image: linear-gradient(to right, #000303, #2dcaf1), url('images/portfolio.jphttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn_QYIBQiTT9abZ-jozqnoE6MLNmuHN93V3iEq3mJemmrD72D_jJ1er9kgeqO8KapMeBE&usqp=CAUghttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrKHTcUtC-SMDcvAISvb6JV5wlYaSI5-kcUdifwHO0x0XF4OrNPS75dr023GsggpRsQZw&usqp=CAUhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrKHTcUtC-SMDcvAISvb6JV5wlYaSI5-kcUdifwHO0x0XF4OrNPS75dr023GsggpRsQZw&usqp=CAU');
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   width: 300px;
   text-align: center;
+  color: #ffffff;
 }
 
 /* Contact Section */
 #contact {
-  background-color: #e2e2e2;
+  background-image: linear-gradient(to left, #000303, #2dcaf1), url('https://https://wallpaperbat.com/img/615707-blur-wallpaper-top-free-blur-background.jpgencrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrKHTcUtC-SMDcvAISvb6JV5wlYaSI5-kcUdifwHO0x0XF4OrNPS75dr023GsggpRsQZw&usqp=CAU');
   padding: 40px 0;
   text-align: center;
+  color: #fff;
 }
 
 #contact a {
@@ -108,7 +135,8 @@ section h2 {
 }
 
 #contact a:hover {
-  background-color: #2dcaf1;
+  background-color: #2d41f1;
+  transition: 0.5s;
 }
 
 /* Footer */
@@ -138,4 +166,30 @@ footer {
 
 .social-links a:hover {
   text-decoration: underline;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ background: linear-gradient(45deg, #000303, #2dcaf1);
+  padding: 20px;
+  border-radius: 8px;
+  margin: auto;
+  width: 100%;
+ text-align: center;
+ color: #fff;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 90px;
+  font-weight: 300;
+  background: repeating-linear-gradient(45deg, #000303, #0b3742);
+  color: #fff;
+  font-size: 23px;
+  box-shadow: 0 2px 5px rgba(221, 187, 187, 0.952);
 }

@@ -1,0 +1,60 @@
+.main{
+    margin-top: 100px;
+    
+}
+.logo-img{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-input{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 70Px;
+    margin-top: 10PX;
+    line-height: 24px;
+}
+.btn{
+    
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 14px;
+    
+}
+.lucky-btn{
+display: inline-block;
+text-align: center;
+padding: 5px;
+padding-left: 16px;
+padding-right: 16px;
+padding-top: 8px;
+padding-bottom: 8px;
+background-color: #ccc;
+font-size: 14px;
+border: 1px solid #ccc;
+border-radius: 5px;
+margin-left: 20px;
+margin-top: 10px;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
